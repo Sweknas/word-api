@@ -1,0 +1,15 @@
+### Health check
+
+GET http://localhost:5000
+Content-Type: application/json
+Accept: application/json
+
+### Count word frequency
+
+POST http://localhost:5000/word/frequency
+Content-Type: application/json
+Accept: application/json
+
+{
+  "text": "A text about another text or about text in general, or what do you think?"
+}

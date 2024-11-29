@@ -134,10 +134,10 @@ The response will also have a status code corresponding to the error.
 
 # Environment variables
 
-| Variable      | Description                             | Default value |
-| ------------- | --------------------------------------- | ------------- |
-| `PORT`        | Port number                             | 5000          |
-| `CorsOrigins` | Comma separated list of allowed origins | `*`           |
+| Variable       | Description                             | Default value |
+| -------------- | --------------------------------------- | ------------- |
+| `PORT`         | Port number                             | 5000          |
+| `CORS_ORIGINS` | Comma separated list of allowed origins | `*`           |
 
 <br></br>
 
